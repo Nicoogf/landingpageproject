@@ -7,7 +7,7 @@
     <title>Prueba</title>
 
     <!-- Hoja de estilo -->
-    <link rel="stylesheet" href="./dist//output.css">
+    <link rel="stylesheet" href="dist/output.css">
 
     <!-- Iconos -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css" rel="stylesheet">
@@ -26,7 +26,253 @@
 
 <body>
     
-    <h1> Hola mundoonpm</h1>
+    <!-- Header -->
+    <header class="py-8 lg:pt-6 lg:pb-14 bg-white" >
+        <div class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
+            <div class="flex justify-center lg:justify-normal ">
+                <a href="#">
+                    <img src="./assets/logo222.png" alt="logo" class="h-24">
+                </a>
+            </div>  
+
+            <div class="flex  flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0 items-center">
+
+                <!-- Ubicacion -->
+                <div class="flex justify-center items-center gap-x-2 lg:justify-normal"> 
+                    <i class="ri-map-pin-2-fill text-2xl text-accent"> </i>
+                    <div class="text-secondary"> Calle 25 Numero 7 , Mercedes </div>
+                </div>
+
+                <!-- Telefono -->
+                <div class="flex justify-center items-center gap-x-2 lg:justify-normal"> 
+                    <i class="ri-phone-fill text-2xl text-accent"></i>
+                    <div class="text-secondary">(02324-4444444)</div>
+                </div>
+
+                <!-- Botones -->
+                <button class="btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0 "> Catalogo </button>
+
+                <!-- Nav Mobil -->
+                <nav class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl lg:hidden transition-all duration-300 z-20">
+
+                    <!-- btn Cerrar -->
+                    <div class="mnav__close-btn bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all"> 
+                        <i class="mnav__close-btn-icon ri-arrow-right-s-line text-2xl text-white"></i>    
+                    </div>
+
+                    <!-- Logo Lista Formulario -->
+                    <div class="px-12 flex flex-col gap-y-12 h-full">
+
+                        <!-- Logo-->
+                        <a href="#">
+                            <img src="./assets/logo222.png" class="h-24" alt="Logo"> 
+                        </a>
+
+                        <!--Lista de Opciones-->
+                        <ul class="flex flex-col gap-y-5">
+                            <li> 
+                                <a href="" class="text-secondary hover:text-accent transition-all duration-300">
+                                    Inicio 
+                                </a> 
+                            </li>
+
+                            <li> 
+                                <a href="" class="text-secondary hover:text-accent transition-all duration-300">
+                                    Menu 
+                                </a> 
+                            </li>
+
+                            <li> 
+                                <a href="" class="text-secondary hover:text-accent transition-all duration-300">
+                                    Sucursales 
+                                </a> 
+                            </li>
+
+                            <li> 
+                                <a href="" class="text-secondary hover:text-accent transition-all duration-300">
+                                    Servicios 
+                                </a> 
+                            </li>
+
+                            <li> 
+                                <a href="" class="text-secondary hover:text-accent transition-all duration-300">
+                                    Contacto 
+                                </a> 
+                            </li>
+                        </ul>
+
+                        <!-- Formulario -->
+                        <form action="" class="relative flex gap-x-[10px]">
+                            <label for="mnav-search-input">
+                                <i class="ri-search-line text-2xl text-accent"></i>
+                            </label>
+                            <input type="text" id="mnav-search-input" placeholder="Buscar" class="outline-none w-[160px] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic placeholder:text-md">
+                        </form>
+                    </div>
+
+                </nav>
+
+                <!-- Nav Escritorio -->
+                <nav class="bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]">
+
+                    <!-- Lista de Opciones -->
+                    <ul class="flex gap-x-4">
+                        <li> 
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">
+                                Inicio 
+                            </a> 
+                        </li>
+
+                        <li> 
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">
+                                Menu 
+                            </a> 
+                        </li>
+
+                        <li> 
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">
+                                Sucursales 
+                            </a> 
+                        </li>
+
+                        <li> 
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">
+                                Servicios 
+                            </a> 
+                        </li>
+
+                        <li> 
+                            <a href="#" class="text-secondary hover:text-accent transition-all duration-300">
+                                Contacto 
+                            </a> 
+                        </li>
+                    </ul>
+
+                    <!-- Formulario -->
+                    <form class="relative flex gap-x-[10px]"> 
+                        <label for="search-input" class="flex justify-center items-center group"> 
+                            <i class="ri-search-line text-2xl text-accent"></i>
+                        </label>
+                        <input placeholder="Buscar" ="text" id="search-input" class="outline-none w-[100px] focus:w-[180px] focus:border-b-2 focus:border-accent placeholder:italic placeholder:text-base transition-all duration-150">
+                    </form>
+
+                </nav>
+                
+
+
+               
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
+        <div class="container mx-auto h-full">
+
+            <!-- Texto Imagen -->
+            <div class="flex flex-col xl:flex-row items-center justify-between h-full">
+
+                <!-- Texto -->
+                <div class="hero__text xl:w-[48%] text-center xl:text-left">
+
+                     <!-- Inicio -->
+                    <div class="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-full mx-auto xl:mx-0">
+
+                        <i class="ri-heart-pulse-line text-2xl text-accent"></i>
+
+                        <div class="uppercase text-base font-medium text-[#9ab4b7] tracking-[2.24px]"> Descripcion </div>
+
+                    </div>
+
+                     <!-- Titulo -->
+                     <h1 class="h1 mb-6"> Nuevas Ofertas promocion</h1>
+
+                    <!-- Descripcion -->
+                    <p class="mb-[42px] md:max-w-xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit necessitatibus nihil sint corrupti! A laborum fugit quo. Repellendus eveniet exercitationem harum ipsum, facilis doloremque temporibus quasi officiis laboriosam, corrupti maiores. </p>
+
+                    <!-- Boton -->
+                    <button class="btn btn-lg btn-accent mx-auto xl:mx-0"> Contacto </button>
+
+
+                </div>
+
+                <!-- Imagen -->
+                <div class="hero__img hidden xl:flex max-w-[814px] self-end">
+                    <img src="./assets/logo222.png" alt="Imagen del sitio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Estadisticas -->
+    <section class="stats section">
+        <div class="container mx-auto">
+            <!--Wrapper-->
+            <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
+
+                <!-- item-->
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> +2515 </div>
+                    <div>   Clientes  </div>
+                </div>  
+
+                  <!-- item-->
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> 1547 </div>
+                    <div>   Platos  </div>
+                </div>  
+                
+                <!-- item-->
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> +78 </div>
+                    <div>   Sucursales  </div>
+                </div>
+                
+                <!-- item-->
+                <div class="stats__item flex-1  flex flex-col items-center">
+                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> 5 </div>
+                    <div>   Estrellas  </div>
+                </div>  
+
+            </div>
+        </div>
+
+    </section>
+     <!--Estadisticas -->
+
+
+
+     <!--Servicios-->
+     <section class="services">
+
+        <!-- Background -->
+        <div class="bg-accent bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">        
+            <div class="container mx-auto">
+                <div class="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]"> 
+                <h2 class="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left"> Mejores Experciencias y soluciones</h2>
+                <p class="text-white flex-1 text-center xl:text-left max-w-2xl xl:max-w-none"> 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque nisi enim rerum, explicabo soluta minus. Hic non nostrum impedit eius veniam, libero neque alias, esse nisi animi quo ex rem!                    
+                </p>
+                </div>
+          </div>
+       </div> 
+
+       <!-- Grid Container -->
+       <div class="container mx-auto mt-8 xl:-mt-[144px]">
+             <!--Grid-->
+            <div class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center">
+                Grid Item
+            </div>
+       </div>
+     </section>
+     <!--Servicios-->
+
+
+
+    <!-- -->
+    <div class="h-[4000px]">
+
+    </div>
 
 
 
