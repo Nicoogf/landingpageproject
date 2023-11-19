@@ -421,7 +421,7 @@
      <section class="testimnial bg-gray-200 py-12 xl:min-h-[595px] xl:py-0">
         <div class="testimonial__constainer container mx-auto"> 
 
-            <div>
+            <div class="flex flex-col items-center gap-x-14 xl:flex-row">
 
                 <!-- IMG -->
                 <div class="hidden xl:flex">
@@ -435,23 +435,38 @@
                         <!-- Additional required wrapper -->
 
                         <div class="swiper-wrapper">
+
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="h-full flex flex-col justify-center items-start">
                                 <div class="max-w-[680px] mx-auto text-center xl:text-left">
-                                    <p class="font-light relative text-[22px] text-[#4c5354] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat">
+                                    <p class="font-light relative text-[22px] text-[#4c5354] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat                                    
+                                    after:bg-quoteRight after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7
+                                    ">
                                         <!-- Message -->
-                                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus facere sunt odio culpa excepturi, harum autem nihil pariatur facilis voluptate molestiae laudantium a nostrum tempore impedit magni aperiam numquam.</span>
+                                        <span class="mx-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus facere sunt odio culpa excepturi, harum autem nihil pariatur facilis voluptate molestiae laudantium a nostrum tempore impedit magni aperiam numquam.</span>
                                     </p>
-                                    <div> Juan Gomez </div>
-                                    <div> Cliente  </div>
+                                    <div class="text-[26px] text-[#4c5354] font-semibold"> Juan Gomez </div>
+                                    <div class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"> Cliente  </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Slides -->
-                        <div class="swiper-slide">Slide 2</div>
-                        <!-- Slides -->
-                        <div class="swiper-slide">Slide 3</div>
+
+                        <div class="swiper-slide">
+                            <div class="h-full flex flex-col justify-center items-start">
+                                <div class="max-w-[680px] mx-auto text-center xl:text-left">
+                                    <p class="font-light relative text-[22px] text-[#4c5354] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat                                    
+                                    after:bg-quoteRight after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7
+                                    ">
+                                        <!-- Message -->
+                                        <span class="mx-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus facere sunt odio culpa excepturi, harum autem nihil pariatur facilis voluptate molestiae laudantium a nostrum tempore impedit magni aperiam numquam.</span>
+                                    </p>
+                                    <div class="text-[26px] text-[#4c5354] font-semibold"> Juan Gomez </div>
+                                    <div class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"> Cliente  </div>
+                                </div>
+                            </div>
+                        </div>
+                       
                         
                         </div>
                         <!-- Swipper pagination -->
@@ -466,6 +481,80 @@
 
      </section>
      <!-- Testimonios -->
+
+
+     <!-- Equipo-->
+     <section class="team section">
+        <div class="container mx-auto">
+            <!-- Title-->
+            <h2 class="team__title h2 mb-[50px] text-center xl:text-left"> Nuestro Equipo</h2>
+
+            <!-- Slider -->
+            <div class="team__slider swiper min-h-[400px]">
+                <!-- Slider main container -->
+                <div class="swiper h-[400px]">
+                    <!-- Additional required wrapper -->
+
+                    <div class="swiper-wrapper">
+
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div>
+                            <!--  item -->
+                            <div> 
+
+                                <div> 
+
+                                    <!-- img -->
+                                    <div class="flex-1">
+                                        <img src="./assets/logo222.png" alt="team" width="200">
+                                    </div>
+
+                                    <!-- Info -->
+                                    <div>
+                                        <!-- Nombre -->
+                                        <h4> Juan Gomez </h4>
+                                        <!-- Trabajo -->
+                                        <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Dueño </div>
+                                        <!-- Descripcion -->
+                                        <p class="font-light mb-[20px] max-w-[320px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis omnis quod nostrum ex repellendus voluptatum ab voluptas, architecto voluptatem cum!
+                                        </p>
+
+                                        <div class="flex items-center text-[30px] gap-x-5 text-accent-tertiary">
+
+                                            <a href="#" class="cursor-pointer hover:text-accent transition-all duration-150"> 
+                                                <i class="ri-youtube-fill"></i>
+                                            </a>
+
+                                            <a href="#" class="cursor-pointer hover:text-accent transition-all duration-150"> 
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+
+                                            <a href="#" class="cursor-pointer hover:text-accent transition-all duration-150"> 
+                                                <i class="ri-instagram-fill"></i>
+                                            </a>
+
+                                            <a href="#" class="cursor-pointer hover:text-accent transition-all duration-150"> 
+                                                <i class="ri-spotify-fill"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                
+                
+                </div>
+                
+            </div>
+
+        </div>
+     </section>
+     <!-- Equipo-->
 
 
 
