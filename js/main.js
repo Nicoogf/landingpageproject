@@ -31,3 +31,27 @@ const swiper = new Swiper('.swiper', {
     },
 
   });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const faqItems = document.querySelectorAll('.faq__item');
+
+    faqItems.forEach((item) => {
+        const faqBtn = item.querySelector('.faq__btn');
+        const answer = item.querySelector('.faq__answer');
+
+        item.addEventListener('click', () => {
+            const isOpen = item.classList.toggle('open');
+            const iconElement = faqBtn.querySelector('i');
+
+            if (isOpen) {
+                iconElement.classList.replace('ri-add-fill', 'ri-subtract-fill');
+                answer.classList.remove('hidden');
+                answer.classList.add('h-auto');
+            } else {
+                iconElement.classList.replace('ri-subtract-fill', 'ri-add-fill');
+                answer.classList.remove('h-auto');
+                answer.classList.add('hidden');
+            }
+        });
+    });
+});
