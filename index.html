@@ -31,7 +31,7 @@
         <div class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
             <div class="flex justify-center lg:justify-normal ">
                 <a href="#">
-                    <img src="./assets/logo222.png" alt="logo" class="h-24">
+                    <img src="./assets/bistro.png" alt="logo" class="h-24 rounded-xl">
                 </a>
             </div>  
 
@@ -40,17 +40,17 @@
                 <!-- Ubicacion -->
                 <div class="flex justify-center items-center gap-x-2 lg:justify-normal"> 
                     <i class="ri-map-pin-2-fill text-2xl text-accent"> </i>
-                    <div class="text-secondary"> Calle 25 Numero 7 , Mercedes </div>
+                    <div class="text-secondary"> Calle 41 y 26 , Mercedes </div>
                 </div>
 
                 <!-- Telefono -->
                 <div class="flex justify-center items-center gap-x-2 lg:justify-normal"> 
                     <i class="ri-phone-fill text-2xl text-accent"></i>
-                    <div class="text-secondary">(02324-4444444)</div>
+                    <div class="text-secondary">(02324 60-3023)</div>
                 </div>
 
                 <!-- Botones -->
-                <button class="btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0 "> Catalogo </button>
+                <button class="btn btn-sm btn-accent w-[240px] lg:w-auto mx-auto lg:mx-0"> Menu </button>
 
                 <!-- Nav Mobil -->
                 <nav class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl lg:hidden transition-all duration-300 z-20">
@@ -101,13 +101,7 @@
                             </li>
                         </ul>
 
-                        <!-- Formulario -->
-                        <form action="" class="relative flex gap-x-[10px]">
-                            <label for="mnav-search-input">
-                                <i class="ri-search-line text-2xl text-accent"></i>
-                            </label>
-                            <input type="text" id="mnav-search-input" placeholder="Buscar" class="outline-none w-[160px] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic placeholder:text-md">
-                        </form>
+                       
                     </div>
 
                 </nav>
@@ -148,13 +142,6 @@
                         </li>
                     </ul>
 
-                    <!-- Formulario -->
-                    <form class="relative flex gap-x-[10px]"> 
-                        <label for="search-input" class="flex justify-center items-center group"> 
-                            <i class="ri-search-line text-2xl text-accent"></i>
-                        </label>
-                        <input placeholder="Buscar" ="text" id="search-input" class="outline-none w-[100px] focus:w-[180px] focus:border-b-2 focus:border-accent placeholder:italic placeholder:text-base transition-all duration-150">
-                    </form>
 
                 </nav>
                 
@@ -166,11 +153,11 @@
     </header>
 
     <!-- Hero -->
-    <section class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
+    <section class="hero bg-imagen-fondo bg-no-repeat bg-cover py-12 xl:pt-12 xl:pb-1 overflow-hidden">
         <div class="container mx-auto h-full">
 
             <!-- Texto Imagen -->
-            <div class="flex flex-col xl:flex-row items-center justify-between h-full">
+            <div class="flex flex-col xl:flex-row items-center justify-between h-full py-12">
 
                 <!-- Texto -->
                 <div class="hero__text xl:w-[48%] text-center xl:text-left">
@@ -178,17 +165,17 @@
                      <!-- Inicio -->
                     <div class="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-full mx-auto xl:mx-0">
 
-                        <i class="ri-heart-pulse-line text-2xl text-accent"></i>
+                        <i class="ri-star-line text-2xl text-accent"></i>
 
-                        <div class="uppercase text-base font-medium text-[#9ab4b7] tracking-[2.24px]"> Descripcion </div>
+                        <div class="uppercase text-base font-medium text-accent tracking-[2.24px]"> Nosotros </div>
 
                     </div>
 
                      <!-- Titulo -->
-                     <h1 class="h1 mb-6"> Nuevas Ofertas promocion</h1>
+                     <h1 class="h1 mb-6 text-white bg-black/90"> Bistro | Restobar</h1>
 
                     <!-- Descripcion -->
-                    <p class="mb-[42px] md:max-w-xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit necessitatibus nihil sint corrupti! A laborum fugit quo. Repellendus eveniet exercitationem harum ipsum, facilis doloremque temporibus quasi officiis laboriosam, corrupti maiores. </p>
+                    <p class="mb-[42px] md:max-w-xl text-white"> Bienvenidos  <b> Bistro RestoBar </b> , donde fusionamos sabores extraordinarios y una década de hospitalidad excepcional. ¡Descubre la experiencia gastronomica única que nos define </p>
 
                     <!-- Boton -->
                     <button class="btn btn-lg btn-accent mx-auto xl:mx-0"> Contacto </button>
@@ -196,10 +183,6 @@
 
                 </div>
 
-                <!-- Imagen -->
-                <div class="hero__img hidden xl:flex max-w-[814px] self-end">
-                    <img src="./assets/logo222.png" alt="Imagen del sitio">
-                </div>
             </div>
         </div>
     </section>
@@ -209,29 +192,29 @@
         <div class="container mx-auto">
             <!--Wrapper-->
             <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
-
+            
                 <!-- item-->
                 <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
-                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> +2515 </div>
-                    <div>   Clientes  </div>
-                </div>  
-
-                  <!-- item-->
-                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
-                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> 1547 </div>
-                    <div>   Platos  </div>
-                </div>  
-                
-                <!-- item-->
-                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
-                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> +78 </div>
+                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> 2 </div>
                     <div>   Sucursales  </div>
                 </div>
+
+                  <!-- item-->
+                  <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> 10 años </div>
+                    <div>   De experiencia  </div>
+                </div>  
+
+                <!-- item-->
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> +568 </div>
+                    <div>   Reseñas Positivas  </div>
+                </div>  
                 
                 <!-- item-->
                 <div class="stats__item flex-1  flex flex-col items-center">
-                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> 5 </div>
-                    <div>   Estrellas  </div>
+                    <div class="text-4xl xl:Text-[64px] font-semibold text-accent-tertiary"> 4.3 </div>
+                    <div>   Calificacion Google  </div>
                 </div>  
 
             </div>
@@ -245,12 +228,12 @@
      <section class="services">
 
         <!-- Background -->
-        <div class="bg-accent bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">        
+        <div class="bg-imagenSemana bg-cover bg-no-repeat bg-imagen-salon max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">        
             <div class="container mx-auto">
                 <div class="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]"> 
-                <h2 class="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left"> Mejores Experciencias y soluciones</h2>
+                <h2 class="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left"> Semana en Bistro</h2>
                 <p class="text-white flex-1 text-center xl:text-left max-w-2xl xl:max-w-none"> 
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque nisi enim rerum, explicabo soluta minus. Hic non nostrum impedit eius veniam, libero neque alias, esse nisi animi quo ex rem!                    
+                    Explora nuestra vibrante agenda de promociones mensuales. Desde noches temáticas hasta descuentos especiales, cada día es una oportunidad para deleitar tu paladar y disfrutar de experiencias únicas                    
                 </p>
                 </div>
           </div>
@@ -265,15 +248,15 @@
 
                 <!-- Grid Items de icon-->
                 <div class="mb-[15px]">
-                    <img src="./assets/logo222.png" class="w-16"/>
+                    <img src="./assets/chicasoff.jpg" class="w-40 rounded-xl"/>
                 </div>
 
                 <!-- Grid Items title-->
-                <h3 class="h3 mb-[10px]"> Comentarios Lorem Ipsun</h3>
+                <h3 class="h3 mb-[10px]"> Jueves de Chicas</h3>
 
                  <!-- Grid Items title-->
                  <p class="font-light leading-normal max-w-[300px]"> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, tempore.
+                    ¡Chicas, el jueves es su día en nuestro Bar! Disfruten de un 20% de descuento en una noche perfecta
                 </p>
 
                 
@@ -286,15 +269,15 @@
 
                 <!-- Grid Items de icon-->
                 <div class="mb-[15px]">
-                    <img src="./assets/logo222.png" class="w-16"/>
+                    <img src="./assets/after.jpg" class="w-40 rounded-xl"/>
                 </div>
 
                 <!-- Grid Items title-->
-                <h3 class="h3 mb-[10px]"> Comentarios Lorem Ipsun</h3>
+                <h3 class="h3 mb-[10px]"> After Office </h3>
 
                  <!-- Grid Items title-->
                  <p class="font-light leading-normal max-w-[300px]"> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, tempore.
+                    El viernes es el día para brindar y relajarse! disfruta de un 10% de descuento en cerveza tirada
                 </p>
 
                 
@@ -307,15 +290,15 @@
 
                 <!-- Grid Items de icon-->
                 <div class="mb-[15px]">
-                    <img src="./assets/logo222.png" class="w-16"/>
+                    <img src="./assets/happy.jpg" class="w-40 rounded-xl"/>
                 </div>
 
                 <!-- Grid Items title-->
-                <h3 class="h3 mb-[10px]"> Comentarios Lorem Ipsun</h3>
+                <h3 class="h3 mb-[10px]"> Happy Hour </h3>
 
                  <!-- Grid Items title-->
                  <p class="font-light leading-normal max-w-[300px]"> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, tempore.
+                    Disfruta los Sábados de nuestro Happy Hour hasta la medianoche con la promoción 2x1 en tragos
                 </p>
 
                 
@@ -328,15 +311,15 @@
 
                 <!-- Grid Items de icon-->
                 <div class="mb-[15px]">
-                    <img src="./assets/logo222.png" class="w-16"/>
+                    <img src="./assets/pizza.jpg" class="w-40 rounded-xl"/>
                 </div>
 
                 <!-- Grid Items title-->
-                <h3 class="h3 mb-[10px]"> Comentarios Lorem Ipsun</h3>
+                <h3 class="h3 mb-[10px]"> Pizza de Regalo en tu cumpleaños </h3>
 
                  <!-- Grid Items title-->
                  <p class="font-light leading-normal max-w-[300px]"> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, tempore.
+                    ¡Celebra tu cumpleaños con nosotros y disfruta de un regalo especial! 
                 </p>
 
                 
@@ -356,10 +339,10 @@
 
             <h2 class="appointment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left"> 
                 Para reservas llamar : 
-                    <span class="text-accent-tertiary"> (2324-555555) </span> 
+                    <span class="text-accent-tertiary">  02324 60-3023 </span> 
             </h2>
 
-            <form class="appointment_form flex flex-col gap-y-5">
+            <form class="appointment__form flex flex-col gap-y-5">
 
                 <div class="flex flex-col xl:flex-row gap-5">
                     <!-- Secction 1 -->
@@ -418,14 +401,15 @@
 
 
      <!-- Testimonios -->
-     <section class="testimnial bg-gray-200 py-12 xl:min-h-[595px] xl:py-0">
+     <section class="testimonial bg-imagen-fondo py-8 xl:min-h-[595px] xl:py-0 xl:justify-between xl:items-center">
+
         <div class="testimonial__constainer container mx-auto"> 
 
-            <div class="flex flex-col items-center gap-x-14 xl:flex-row">
+            <div class="flex flex-col items-center gap-x-14 xl:flex-row xl:pt-12">
 
                 <!-- IMG -->
-                <div class="hidden xl:flex">
-                    <img src="./assets/logo222.png" alt="clientes">
+                <div class="hidden xl:flex xl:justify-center xl:items-center mx-auto">
+                    <img src="./assets/profiledefault.png" alt="clientes" width="250">
                 </div>
 
                 <!-- Slider -->
@@ -440,14 +424,20 @@
                         <div class="swiper-slide">
                             <div class="h-full flex flex-col justify-center items-start">
                                 <div class="max-w-[680px] mx-auto text-center xl:text-left">
-                                    <p class="font-light relative text-[22px] text-[#4c5354] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat                                    
-                                    after:bg-quoteRight after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7
+                                    <p class="font-light relative text-[22px] leading-[190%] text-center xl:text-left before:bg-quoteLeft before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat                                    
+                                    after:bg-quoteRight after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7 text-white
                                     ">
                                         <!-- Message -->
-                                        <span class="mx-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus facere sunt odio culpa excepturi, harum autem nihil pariatur facilis voluptate molestiae laudantium a nostrum tempore impedit magni aperiam numquam.</span>
+                                        <span class="mx-2 text-white"> Excelente lugar, muy cálido muy buena atención. HAY CARTA APTA PARA CELÍACOS  Los mozos y Fernando uno de los dueños siempre super atentos. Muy recomendable está a 6 cuadras del centro pero no duden en ir</span>
                                     </p>
-                                    <div class="text-[26px] text-[#4c5354] font-semibold"> Juan Gomez </div>
-                                    <div class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"> Cliente  </div>
+                                    <div class="text-[26px] text-white font-semibold"> Leonardo </div>
+                                    <div class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"> 
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -459,10 +449,16 @@
                                     after:bg-quoteRight after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7
                                     ">
                                         <!-- Message -->
-                                        <span class="mx-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatibus facere sunt odio culpa excepturi, harum autem nihil pariatur facilis voluptate molestiae laudantium a nostrum tempore impedit magni aperiam numquam.</span>
+                                        <span class="mx-2"> Excelente atención. El lugar en muy agradable. La pizza diez puntos. Hay platos para chicos, la milanesa con fritas va muy bien . Cerveza tirada y en botella . Para recomendar el lugar</span>
                                     </p>
-                                    <div class="text-[26px] text-[#4c5354] font-semibold"> Juan Gomez </div>
-                                    <div class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"> Cliente  </div>
+                                    <div class="text-[26px] font-semibold text-white"> Cesar Gabriel </div>
+                                    <div class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]"> 
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                        <i class="ri-star-s-fill text-yellow-400"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -489,8 +485,8 @@
       <div class="container mx-auto">
 
          <!-- Title-->
-         <h2 class="team__title h2 mb-[50px] text-center xl:text-left"> 
-            Nuestro Equipo
+         <h2 class="team__tittle h2 mb-[50px] text-center xl:text-left"> 
+            Alguno de nuestros Platos
          </h2>
 
          <!--Slider -->
@@ -509,38 +505,19 @@
 
                         <!-- Img -->
                         <div class="flex-1">
-                          <img src="./assets/logo222.png" alt="Profile Img" width="250">
+                          <img src="./assets/napo.jpg" alt="Profile Img" width="250" class="rounded-full"> 
                         </div>
 
                         <!-- Info -->
                         <div class="flex-1 flex flex-col"> 
                           <!-- Name -->
-                          <h4 class="h4 mb-[10px]"> Cheff </h4>
+                          <h4 class="h4 mb-[10px]"> Milanesa napolitana con papas </h4>
                           <!-- Trabajo -->
-                          <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Dueño </div>
+                          <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Platos </div>
                           <!-- Desc -->
-                          <p class="font-light mb-[26px] max-w-[320px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquam facilis maxime animi a quo?
+                          <p class="font-light mb-[26px] max-w-[320px]"> Suculenta combinación de carne tierna, tomate, queso fundido. Acompañada de crujientes papas doradas. Sabor auténtico y irresistible
                           </p>
-                          <!-- Socials -->
-                          <div class="flex items-center text-[30px] gap-x-5  text-accent-tertiary"> 
-
-                            <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                <i class="ri-youtube-fill"></i>
-                            </a>
-
-                            <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                <i class="ri-facebook-circle-fill"></i>
-                            </a>
-
-                            <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                <i class="ri-instagram-fill"></i>
-                            </a>
-
-                            <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                <i class="ri-pinterest-fill"></i>
-                            </a>
-
-                          </div>
+                         
                         </div>
                     </div> 
 
@@ -550,38 +527,19 @@
     
                             <!-- Img -->
                             <div class="flex-1">
-                            <img src="./assets/logo222.png" alt="Profile Img" width="250">
+                            <img src="./assets/crispy.jpg" alt="Profile Img" width="250" class="rounded-full">
                             </div>
     
                             <!-- Info -->
                             <div class="flex-1 flex flex-col"> 
                             <!-- Name -->
-                            <h4 class="h4 mb-[10px]"> Cheff </h4>
+                            <h4 class="h4 mb-[10px]"> Pollo crispy con papas </h4>
                             <!-- Trabajo -->
-                            <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Dueño </div>
+                            <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Platos </div>
                             <!-- Desc -->
-                            <p class="font-light mb-[26px] max-w-[320px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquam facilis maxime animi a quo?
+                            <p class="font-light mb-[26px] max-w-[320px]"> Crujiente pollo crispy, doradas papas. Bocado perfecto: exterior crujiente, interior jugoso. Una delicia que despierta sabores y eleva la experiencia culinaria
                             </p>
-                            <!-- Socials -->
-                            <div class="flex items-center text-[30px] gap-x-5  text-accent-tertiary"> 
-    
-                                <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                    <i class="ri-youtube-fill"></i>
-                                </a>
-    
-                                <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                    <i class="ri-facebook-circle-fill"></i>
-                                </a>
-    
-                                <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                    <i class="ri-instagram-fill"></i>
-                                </a>
-    
-                                <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                    <i class="ri-pinterest-fill"></i>
-                                </a>
-    
-                            </div>
+                           
                             </div>
                         </div> 
                      </div>
@@ -603,38 +561,19 @@
 
                       <!-- Img -->
                       <div class="flex-1">
-                        <img src="./assets/logo222.png" alt="Profile Img" width="250">
+                        <img src="./assets/sorrent.jpg" alt="Profile Img" width="250" class="rounded-full">
                       </div>
 
                       <!-- Info -->
                       <div class="flex-1 flex flex-col"> 
                         <!-- Name -->
-                        <h4 class="h4 mb-[10px]"> Cheff </h4>
+                        <h4 class="h4 mb-[10px]"> Sorrentinos </h4>
                         <!-- Trabajo -->
-                        <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Dueño </div>
+                        <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Platos  </div>
                         <!-- Desc -->
-                        <p class="font-light mb-[26px] max-w-[320px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquam facilis maxime animi a quo?
+                        <p class="font-light mb-[26px] max-w-[320px]"> Sabrosos sorrentinos rellenos de exquisitez. Cada bocado es un viaje a la tradición italiana. Una experiencia culinaria única y deliciosa
                         </p>
-                        <!-- Socials -->
-                        <div class="flex items-center text-[30px] gap-x-5  text-accent-tertiary"> 
-
-                          <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                              <i class="ri-youtube-fill"></i>
-                          </a>
-
-                          <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                              <i class="ri-facebook-circle-fill"></i>
-                          </a>
-
-                          <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                              <i class="ri-instagram-fill"></i>
-                          </a>
-
-                          <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                              <i class="ri-pinterest-fill"></i>
-                          </a>
-
-                        </div>
+                       
                       </div>
                   </div> 
 
@@ -644,38 +583,19 @@
   
                           <!-- Img -->
                           <div class="flex-1">
-                          <img src="./assets/logo222.png" alt="Profile Img" width="250">
+                          <img src="./assets/nachos.jpg" alt="Profile Img" width="250" class="rounded-full">
                           </div>
   
                           <!-- Info -->
                           <div class="flex-1 flex flex-col"> 
                           <!-- Name -->
-                          <h4 class="h4 mb-[10px]"> Cheff </h4>
+                          <h4 class="h4 mb-[10px]"> Nachos con cheddar </h4>
                           <!-- Trabajo -->
-                          <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Dueño </div>
+                          <div class="font-medium uppercase tracking-[2.24px] text-[#9ab4b7] mb-[20px]"> Platos </div>
                           <!-- Desc -->
-                          <p class="font-light mb-[26px] max-w-[320px]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquam facilis maxime animi a quo?
+                          <p class="font-light mb-[26px] max-w-[320px]"> Nachos con cheddar derretido, un festín de sabores y texturas. Una explosión de auténtico sabor para compartir y disfrutar al máximo
                           </p>
-                          <!-- Socials -->
-                          <div class="flex items-center text-[30px] gap-x-5  text-accent-tertiary"> 
-  
-                              <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                  <i class="ri-youtube-fill"></i>
-                              </a>
-  
-                              <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                  <i class="ri-facebook-circle-fill"></i>
-                              </a>
-  
-                              <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                  <i class="ri-instagram-fill"></i>
-                              </a>
-  
-                              <a href="#" class="cursor-pointer hover:text-accent transition-all"> 
-                                  <i class="ri-pinterest-fill"></i>
-                              </a>
-  
-                          </div>
+                         
                           </div>
                       </div> 
                    </div>
@@ -703,7 +623,7 @@
      <!-- faq -->
      <section class="faq">
         <div class="container mx-auto">
-            <h2 class="faq__title h2 text-center mb-[50px]"> Preguntas Frecuentes </h2>
+            <h2 class="faq__tittle h2 text-center mb-[50px]"> Preguntas Frecuentes </h2>
 
             <!-- Item Wraper -->
             <div class="max-w-5xl mx-auto flex flex-col gap-5"> 
@@ -712,7 +632,7 @@
             <div class="faq__item px-[30px] pt-7 pb-4 border-b-2 border-gray-200 cursor-pointer select-none">
                 <!-- Title e Icono -->
                 <div class="flex items-center justify-between mb-[10px]">
-                    <h4 class="h4">Como hago mi reserva?</h4>
+                    <h4 class="h4">¿Cuáles son los horarios de apertura del restaurante/bar?</h4>
                     <div class="faq__btn text-accent">
                         <i class="ri-add-fill text-2xl"></i>
                     </div>
@@ -720,7 +640,7 @@
             
                 <!-- Respuesta-->
                 <div class="faq__answer h-0 overflow-hidden hidden">
-                    <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio doloribus ex nam explicabo voluptatem soluta eos beatae pariatur, quam labore, dicta quia ratione enim numquam quidem quos. Reprehenderit, officia!</p>
+                    <p class="font-light">Nuestro restaurante/bar abre sus puertas para deleitarte con experiencias culinarias inolvidables. Los horarios de apertura son [Inserta tus horarios aquí]</p>
                 </div>
             </div>
 
@@ -728,7 +648,7 @@
             <div class="faq__item px-[30px] pt-7 pb-4 border-b-2 border-gray-200 cursor-pointer select-none">
                 <!-- Title e Icono -->
                 <div class="flex items-center justify-between mb-[10px]">
-                    <h4 class="h4">Como hago mi reserva?</h4>
+                    <h4 class="h4">¿Como hago mi reserva?</h4>
                     <div class="faq__btn text-accent">
                         <i class="ri-add-fill text-2xl"></i>
                     </div>
@@ -736,7 +656,7 @@
             
                 <!-- Respuesta-->
                 <div class="faq__answer h-0 overflow-hidden hidden">
-                    <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio doloribus ex nam explicabo voluptatem soluta eos beatae pariatur, quam labore, dicta quia ratione enim numquam quidem quos. Reprehenderit, officia!</p>
+                    <p class="font-light">Hacer tu reserva es fácil y conveniente. Simplemente llámanos al [Inserta tu número de teléfono] o envía un mensaje por WhatsApp al mismo número. Nuestro equipo estará encantado de asegurar tu lugar para una experiencia gastronómica inolvidable. ¡Esperamos tu llamada!</p>
                 </div>
             </div>
 
@@ -744,7 +664,7 @@
             <div class="faq__item px-[30px] pt-7 pb-4 border-b-2 border-gray-200 cursor-pointer select-none">
                 <!-- Title e Icono -->
                 <div class="flex items-center justify-between mb-[10px]">
-                    <h4 class="h4">Como hago mi reserva?</h4>
+                    <h4 class="h4">¿Se permiten reservas para eventos especiales o grupos grandes?</h4>
                     <div class="faq__btn text-accent">
                         <i class="ri-add-fill text-2xl"></i>
                     </div>
@@ -752,7 +672,7 @@
             
                 <!-- Respuesta-->
                 <div class="faq__answer h-0 overflow-hidden hidden">
-                    <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio doloribus ex nam explicabo voluptatem soluta eos beatae pariatur, quam labore, dicta quia ratione enim numquam quidem quos. Reprehenderit, officia!</p>
+                    <p class="font-light">"Sí, ¡te damos la bienvenida! Aceptamos reservas para eventos especiales o grupos grandes. Para garantizar tu espacio, contáctanos por WhatsApp con al menos 15 días de anticipación. Estamos emocionados de ser parte de tu ocasión especial. ¡Esperamos tu mensaje!"!</p>
                 </div>
             </div>
 
@@ -760,7 +680,7 @@
             <div class="faq__item px-[30px] pt-7 pb-4 border-b-2 border-gray-200 cursor-pointer select-none">
                 <!-- Title e Icono -->
                 <div class="flex items-center justify-between mb-[10px]">
-                    <h4 class="h4">Como hago mi reserva?</h4>
+                    <h4 class="h4">¿Ofrecen opciones gluten en el menú?</h4>
                     <div class="faq__btn text-accent">
                         <i class="ri-add-fill text-2xl"></i>
                     </div>
@@ -768,7 +688,7 @@
             
                 <!-- Respuesta-->
                 <div class="faq__answer h-0 overflow-hidden hidden">
-                    <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio doloribus ex nam explicabo voluptatem soluta eos beatae pariatur, quam labore, dicta quia ratione enim numquam quidem quos. Reprehenderit, officia!</p>
+                    <p class="font-light">En nuestro menú, encontrarás opciones sin gluten cuidadosamente elaboradas. Nos preocupamos por satisfacer diversas necesidades dietéticas, así que puedes disfrutar de deliciosos platos sin preocupaciones. ¡Descubre una experiencia culinaria para todos los gustos!</p>
                 </div>
             </div>
 
@@ -837,7 +757,7 @@
      <!-- Blog -->
      <section>
         <div class="container mx-auto">
-            <h2 class="blog__title h2 mb-[50px] text-center xl:text-left"> Articulos Recientes </h2>
+            <h2 class="blog__tittle h2 mb-[50px] text-center xl:text-left"> Ultimos Fin de Semana </h2>
 
             <div class="flex flex-col xl:flex-row gap-y-6 xl:gap-y-0 items-center xl:justify-between mb-[50px]""> 
                 <!-- Post 1-->
@@ -952,7 +872,7 @@
                     
                     <form class="flex-1"> 
                         <div class="md:flex-row relative gap-y-4" >
-                            <input type="text" placeholder="Ingresar Email" class="rounded-full w-full h-[66px] bg-transparent border-2 border-white outline-none pl-[30px] placeholder:text-white focus:text-white"/>
+                            <input type="text" placeholder="Ingresar Email" class="rounded-full w-full h-[66px] bg-transparent border-2 border-white outline-none pl-[30px] placeholder:text-white focus:text-white relative"/>
                             <button class="btn btn-lg btn-white md:absolute right-0"> Suscribe </button>
                         </div>
                     </form>
@@ -972,14 +892,14 @@
                         <img src="./assets/logo222.png" class="mb-[30px]" width="50" />
                     </a> 
                     <!-- Descripcion-->
-                    <p class="mb-[20px]"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa                       
+                    <p class="mb-[20px]"> Bistro Restobar
                     </p>  
                     
                     <!-- location email-->
                     <div class="flex flex-col gap-y-3 mb-10">
                         <div class="flex items-center gap-x-[6px]">
                             <i class="ri-map-pin-fill text-[24px] text-accent"></i>
-                            <div>  123 calle false </div>                          
+                            <div>  Calle 41 y 26 , Mercedes </div>                          
                         </div>
                         <div class="flex items-center gap-x-[6px]">                         
                             <i class="ri-mail-fill text-[24px] text-accent"></i>
@@ -987,7 +907,7 @@
                         </div>
                         <div class="flex items-center gap-x-[6px]">                           
                             <i class="ri-phone-fill text-[24px] text-accent"></i>
-                            <div>  123 calle false </div> 
+                            <div>  (02324 60-3023) </div> 
                         </div>
                     </div>
 
@@ -1016,38 +936,29 @@
 
                         <ul class="flex-1 flex flex-col gap-y-5">
                             <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
+                                <a href="#" class="hover:text-accent transition-all"> Inicio </a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
+                                <a href="#" class="hover:text-accent transition-all"> Menu </a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
+                                <a href="#" class="hover:text-accent transition-all"> Sucursales </a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
+                                <a href="#" class="hover:text-accent transition-all"> Servicios </a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
+                                <a href="#" class="hover:text-accent transition-all"> Contacto </a>
                             </li>
                         </ul>
 
                         <ul class="flex-1 flex flex-col gap-y-5">
                             <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
+                                <a href="#" class="hover:text-accent transition-all"> Abrir Chat </a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
-                            </li>
-                            <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
-                            </li>
-                            <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
-                            </li>
-                            <li>
-                                <a href="#" class="hover:text-accent transition-all"> Home </a>
-                            </li>                           
+                                <a href="#" class="hover:text-accent transition-all"> Abrir Ubicacion </a>
+                            </li>                                               
                         </ul>
                     
                     </div>
@@ -1061,29 +972,29 @@
                     
                     <div class="flex-1">
                         <div class="flex justify-between items-center border-b pb-[10px]">
-                            <div> monday - thursday</div>
-                            <div class="text-accent"> 8:00 Am - 6:00 Am</div>
+                            <div> Lunes </div>
+                            <div class="text-red-600"> Cerrado </div>
                         </div>
 
                     </div>
                     <div class="flex-1">
                         <div class="flex justify-between items-center border-b pb-[10px]">
-                            <div> monday - thursday</div>
-                            <div class="text-accent"> 8:00 Am - 6:00 Am</div>
+                            <div> Martes a Jueves</div>
+                            <div class="text-accent"> 18:00 - 01:00 </div>
                         </div>
 
                     </div>
                     <div class="flex-1">
                         <div class="flex justify-between items-center border-b pb-[10px]">
-                            <div> monday - thursday</div>
-                            <div class="text-accent"> 8:00 Am - 6:00 Am</div>
+                            <div> Viernes y Sabados</div>
+                            <div class="text-accent"> 16:00 - 03:00</div>
                         </div>
 
                     </div>
                     <div class="flex-1">
                         <div class="flex justify-between items-center border-b pb-[10px]">
-                            <div> monday - thursday</div>
-                            <div class="text-accent"> 8:00 Am - 6:00 Am</div>
+                            <div> Domingos </div>
+                            <div class="text-accent"> 16:00 - 01:00</div>
                         </div>
 
                     </div>

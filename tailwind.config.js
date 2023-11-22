@@ -15,12 +15,12 @@ module.exports = {
     },
     extend: {
       colors:{
-        primary :'#242a2b',
+        primary :'#403647',
         secondary :'#808080',
         accent: {
-          DEFAULT : '#1cbccf' ,
-          secondary: '#18abbc' ,
-          tertiary: "#90c6cd" ,
+          DEFAULT : '#701CCF' ,
+          secondary: '#5618BC' ,
+          tertiary: "#9E90CD" ,
         },
         grey: "#e8f0f1"
       },
@@ -32,11 +32,13 @@ module.exports = {
         custom2 : '0px 0px 30px 0px rgba(8, 73, 81, 0.06)' ,
       },
       backgroundImage: {
-        services : 'url(../../assets/img/services/bg.svg)' ,
+        services : 'url(./assets/1.jpg)' ,
         testimonials : 'url(../../assets/img/testimonials/bg.svg)',
         departaments : 'url(../../assets/img/departaments/bg.svg)' ,
         quoteLeft : 'url(../../assets/img/testimonials/quote-left.svg)' ,
         quoteRight : 'url(../../assets/img/testimonials/quote-right.svg)' ,
+        imagenFondo : "url(../../assets/1.jpg')" ,
+        imagenSemana : "url(../../assets/2.jpg')" ,
       },
     },
   },

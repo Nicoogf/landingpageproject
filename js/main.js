@@ -61,8 +61,8 @@ const swiper = new Swiper('.swiper', {
 const sr = ScrollReveal({
     origin: 'bottom',
     distance: '60px',
-    duration: '3000',
-    delay : 600 ,
+    duration: '2000',
+    delay : 400 ,
     reset: true
 }) ;
 
@@ -79,3 +79,68 @@ sr.reveal('.stats__item' , {
     interval: 100 ,
     origin: 'top'
 })
+
+
+sr.reveal('.services') ;
+sr.reveal('.services__top') ;
+sr.reveal('.services__item' , {
+    delay:600,
+    distance : '100px' ,
+    interval: 100 ,
+    origin: 'bottom'
+}) ;
+
+//appaintment
+
+sr.reveal('.appointment__title') ;
+sr.reveal('.appointment__form') ;
+
+
+sr.reveal('.testimonial') ;
+sr.reveal('.testimonial__constainer') ;
+
+
+
+
+sr.reveal('.team__tittle') ;
+sr.reveal('.team__slider') ;
+
+sr.reveal('.faq__tittle') ;
+sr.reveal('.faq__item' , {
+    delay:400,
+    distance:'100px',
+    interval: 100 ,
+    origin : 'bottom'
+}) ;
+
+
+sr.reveal('.departaments') ;
+sr.reveal('.departaments__container') ;
+
+sr.reveal('.blog__tittle') ;
+sr.reveal('.blog__post' , {
+    delay:400,
+    distance: '100px',
+    interval : 100 ,
+    origin:'bottom'
+}) ;
+
+
+sr.reveal('.brands__logo' , {
+    delay:400,
+    distance: '100px',
+    interval : 100 ,
+    origin:'bottom'
+}) ;
+
+sr.reveal('.newsletter')
+sr.reveal('.newsletter_container')
+
+
+sr.reveal('.footer__item' , {
+    delay:400,
+    distance: '100px',
+    interval : 100 ,
+    origin:'bottom'
+}) ;
+
