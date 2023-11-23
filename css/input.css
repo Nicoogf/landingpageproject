@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     @apply text-secondary font-primary text-[17px] leading-8 ;
 }
@@ -84,4 +88,11 @@ h1,h2,h3,h4,h5,h6{
 
 .bg-imagen-salon{
     background-image: url("../assets/2.jpg");
+}
+
+.bg-imagen-opciones{
+    background-image: url("../assets/3.jpg");
+}
+.bg-imagen-email{
+    background-image: url("../assets/bg-piza.jpg");
 }
